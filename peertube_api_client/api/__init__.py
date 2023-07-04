@@ -1,0 +1,46 @@
+# flake8: noqa
+
+# import apis into api package
+from peertube_api_client.api.abuses_api import AbusesApi
+from peertube_api_client.api.account_blocks_api import AccountBlocksApi
+from peertube_api_client.api.accounts_api import AccountsApi
+from peertube_api_client.api.channels_sync_api import ChannelsSyncApi
+from peertube_api_client.api.config_api import ConfigApi
+from peertube_api_client.api.homepage_api import HomepageApi
+from peertube_api_client.api.instance_follows_api import InstanceFollowsApi
+from peertube_api_client.api.instance_redundancy_api import InstanceRedundancyApi
+from peertube_api_client.api.job_api import JobApi
+from peertube_api_client.api.live_videos_api import LiveVideosApi
+from peertube_api_client.api.logs_api import LogsApi
+from peertube_api_client.api.my_history_api import MyHistoryApi
+from peertube_api_client.api.my_notifications_api import MyNotificationsApi
+from peertube_api_client.api.my_subscriptions_api import MySubscriptionsApi
+from peertube_api_client.api.my_user_api import MyUserApi
+from peertube_api_client.api.plugins_api import PluginsApi
+from peertube_api_client.api.register_api import RegisterApi
+from peertube_api_client.api.runner_jobs_api import RunnerJobsApi
+from peertube_api_client.api.runner_registration_token_api import RunnerRegistrationTokenApi
+from peertube_api_client.api.runners_api import RunnersApi
+from peertube_api_client.api.search_api import SearchApi
+from peertube_api_client.api.server_blocks_api import ServerBlocksApi
+from peertube_api_client.api.session_api import SessionApi
+from peertube_api_client.api.static_video_files_api import StaticVideoFilesApi
+from peertube_api_client.api.stats_api import StatsApi
+from peertube_api_client.api.users_api import UsersApi
+from peertube_api_client.api.video_api import VideoApi
+from peertube_api_client.api.video_blocks_api import VideoBlocksApi
+from peertube_api_client.api.video_captions_api import VideoCaptionsApi
+from peertube_api_client.api.video_channels_api import VideoChannelsApi
+from peertube_api_client.api.video_comments_api import VideoCommentsApi
+from peertube_api_client.api.video_feeds_api import VideoFeedsApi
+from peertube_api_client.api.video_files_api import VideoFilesApi
+from peertube_api_client.api.video_imports_api import VideoImportsApi
+from peertube_api_client.api.video_mirroring_api import VideoMirroringApi
+from peertube_api_client.api.video_ownership_change_api import VideoOwnershipChangeApi
+from peertube_api_client.api.video_playlists_api import VideoPlaylistsApi
+from peertube_api_client.api.video_rates_api import VideoRatesApi
+from peertube_api_client.api.video_stats_api import VideoStatsApi
+from peertube_api_client.api.video_transcoding_api import VideoTranscodingApi
+from peertube_api_client.api.video_upload_api import VideoUploadApi
+from peertube_api_client.api.videos_api import VideosApi
+
